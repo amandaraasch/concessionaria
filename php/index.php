@@ -10,7 +10,7 @@
     <?php
     require_once("conecta.php"),
     if(isset($_get["id"]==true)){
-
+        echo "<script>coloreArea(".$GET['id']."); </script>"
     }
     ?>
     <main id="patio">
